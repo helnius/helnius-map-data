@@ -11,9 +11,8 @@ replace_level_meta 'gta5'
 files {
     'gta5.meta',
     'doortuning.ymt',
-    'helnius_map_door_audios_game.dat151.rel',
-    'helnius_map_audios_game.dat151.rel'
+    'audio/helnius_map_audios_game.dat151.rel'
 }
 
-data_file 'AUDIO_GAMEDATA' 'helnius_map_door_audios_game.dat'
-data_file 'AUDIO_GAMEDATA' 'helnius_map_audios_game.dat'
+data_file 'AUDIO_GAMEDATA' 'audio/helnius_map_audios_game.dat'
+

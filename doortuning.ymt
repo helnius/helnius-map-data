@@ -1401,7 +1401,7 @@
     </Item>
     <Item>
       <ModelName>int_helnius_hospital_elev_door</ModelName>
-      <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
+      <TuningName>DefaultSlidingHorizontal</TuningName>
     </Item>
     <Item>
       <ModelName>int_helnius_hospital_ext_door_02</ModelName>
@@ -1415,6 +1415,16 @@
       <ModelName>int_helnius_hospital_ext_door_01_r</ModelName>
       <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
     </Item>
+    <Item>
+      <ModelName>int_helnius_hospital_ext_door_01_r</ModelName>
+      <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
+    </Item>
         <!-- helnius hospital end -->
+        <!-- helnius fleeca bank start -->
+    <Item>
+      <ModelName>int_helnius_fleeca_bank_vault_gate_01</ModelName>
+      <TuningName>DefaultSlidingHorizontal</TuningName>
+    </Item>
+    <!-- helnius fleeca bank end -->
   </ModelToTuneMapping>
 </CDoorTuningFile>
