@@ -876,6 +876,31 @@
         <StdDoorRotDir>StdDoorOpenBothDir</StdDoorRotDir>
       </Tuning>
     </Item>
+    <Item>
+      <Name>helnius_slide_slow</Name>
+      <Tuning>
+        <AutoOpenVolumeOffset x="0.000000" y="0.000000" z="0.000000" />
+        <Flags>AutoOpensForSPPlayerPedsOnly AutoOpensForMPPlayerPedsOnly AutoOpensForLawEnforcement</Flags>
+        <AutoOpenRadiusModifier value="1.000000" />
+        <AutoOpenRate value="1.00000" />
+        <AutoOpenCosineAngleBetweenThreshold value="-1.000000" />
+        <AutoOpenCloseRateTaper value="false" />
+        <UseAutoOpenTriggerBox value="true" />
+        <CustomTriggerBox value="true" />
+        <TriggerBoxMinMax>
+          <min x="-3.000000" y="-3.000000" z="-1.500000" w="0.000000" />
+          <max x="3.000000" y="3.000000" z="3.000000" w="0.000000" />
+        </TriggerBoxMinMax>
+        <BreakableByVehicle value="false" />
+        <BreakingImpulse value="0.000000" />
+        <ShouldLatchShut value="false" />
+        <MassMultiplier value="1.000000" />
+        <WeaponImpulseMultiplier value="1.000000" />
+        <RotationLimitAngle value="0.000000" />
+        <TorqueAngularVelocityLimit value="5.000000" />
+        <StdDoorRotDir>StdDoorOpenBothDir</StdDoorRotDir>
+      </Tuning>
+    </Item>
   </NamedTuningArray>
   <ModelToTuneMapping>
     <Item>
@@ -1423,8 +1448,42 @@
         <!-- helnius fleeca bank start -->
     <Item>
       <ModelName>int_helnius_fleeca_bank_vault_gate_01</ModelName>
-      <TuningName>DefaultSlidingHorizontal</TuningName>
+      <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
     </Item>
     <!-- helnius fleeca bank end -->
+    <!-- helnius fleeca bank TOWER start -->
+    <Item>
+      <ModelName>int_helnius_tower_lob_door01</ModelName>
+      <TuningName>DefaultStandardLatchShut</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_bank_exp_vault_door</ModelName>
+      <TuningName>helnius_slide_slow</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_bank_mantrap_door</ModelName>
+      <TuningName>SprayDoors</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_bank_garage_door_big</ModelName>
+      <TuningName>helnius_slide_slow</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_lob_door02</ModelName>
+      <TuningName>DefaultStandardLatchShut</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_bank_fence_door</ModelName>
+      <TuningName>SprayDoors</TuningName>
+    </Item>
+    <Item>
+      <ModelName>int_helnius_tower_bank_fence_door_large</ModelName>
+      <TuningName>helnius_slide_slow</TuningName>
+    </Item>
+    <Item>
+      <ModelName>helnius_dt1_21_tower_garagedoor_01a</ModelName>
+      <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
+    </Item>
+    <!-- helnius fleeca bank TOWER end -->
   </ModelToTuneMapping>
 </CDoorTuningFile>
