@@ -1485,5 +1485,19 @@
       <TuningName>SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds</TuningName>
     </Item>
     <!-- helnius fleeca bank TOWER end -->
+    <!-- helnius 247 start -->
+    <Item>
+      <ModelName>helnius_v_66_shop711_door01</ModelName>
+      <TuningName>DefaultStandardLatchShut</TuningName>
+    </Item>
+    <Item>
+      <ModelName>helnius_v_66_shop711_door_l</ModelName>
+      <TuningName>SlidingHorizontalExtendedRange</TuningName>
+    </Item>
+    <Item>
+      <ModelName>helnius_v_66_shop711_door_r</ModelName>
+      <TuningName>SlidingHorizontalExtendedRange</TuningName>
+    </Item>
+    <!-- helnius 247 end -->
   </ModelToTuneMapping>
 </CDoorTuningFile>
